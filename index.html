@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon.png">
+  <title>採用情報｜岩﨑新税理士事務所</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="page-home">
+  <header class="site-header">
+    <div class="site-header__inner l-container">
+      <div class="site-header__branding">
+        <h1 class="site-header__logo">
+          <a href="index.html" class="site-header__logo-link">
+            <img src="img/logo_header.png" alt="岩崎税理士事務所">
+          </a>
+        </h1>
+
+        <p class="site-header__label">採用サイト</p>
+      </div>
+
+      <nav class="site-header__nav" aria-label="グローバルナビゲーション">
+        <ul class="site-header__list">
+          <li class="site-header__item">
+            <a href="#recruit" class="site-header__link">募集職種</a>
+          </li>
+          <li class="site-header__item">
+            <a href="#feature" class="site-header__link">特徴</a>
+          </li>
+          <li class="site-header__item">
+            <a href="#message" class="site-header__link">メッセージ</a>
+          </li>
+          <li class="site-header__item">
+            <a href="#story" class="site-header__link">インタビュー</a>
+          </li>
+          <li class="site-header__item">
+            <a href="entry/index.html" class="site-header__link">Entry</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <header class="sp-header">
+    <a href="./" class="sp-header__brand" aria-label="岩崎新税理士事務所 採用サイト">
+      <img src="img/logo_header.png" alt="岩崎新税理士事務所">
+      <span class="sp-header__site-label">採用サイト</span>
+    </a>
+
+    <button class="sp-header__menu" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="sp-nav-panel">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none" aria-hidden="true">
+      <rect width="20" height="1" fill="white"/>
+      <rect y="8" width="20" height="1" fill="white"/>
+      <rect y="16" width="20" height="1" fill="white"/>
+    </svg>
+    </button>
+    <div class="sp-nav-overlay" id="sp-nav-overlay" aria-hidden="true"></div>
+
+    <div class="sp-nav-panel" id="sp-nav-panel" aria-hidden="true">
+      <nav class="sp-nav" aria-label="スマートフォンメニュー">
+        <ul class="sp-nav__list">
+          <li class="sp-nav__item"><a href="#recruit">募集職種</a></li>
+          <li class="sp-nav__item"><a href="#feature-sp">特徴</a></li>
+          <li class="sp-nav__item"><a href="#message">メッセージ</a></li>
+          <li class="sp-nav__item"><a href="#story">インタビュー</a></li>
+          <li class="sp-nav__item"><a href="entry/index.html">Entry</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <!-- 等高線 -->
+      <div class="hero__ornament" aria-hidden="true">
+       <img src="img/contour.png" alt="">
+      </div>
+      <div class="hero__inner l-container">
+        <div class="hero__visual-area">
+          <figure class="hero__image-box">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./img/nishimaki-sp-FV.jpg">
+              <img src="./img/nishimaki-pc-FV.jpg" alt="西巻先生">
+            </picture>
+          </figure>
+          <div class="hero__copy">
+            <h1 class="hero__title">働く場所より、働き方を選ぶ。</h1>
+            <p class="hero__subtitle">クラウド会計とリモートワークで、“誠実”を自由に。</p>
+          </div>
+        </div>
+        <div class="hero__scroll">
+          <span class="hero__scroll-text">scroll</span>
+          <span class="hero__scroll-line"></span>
+        </div>
+      </div>
+    </section>
+  
+    <!--追従するCTAボタン-->
+    <a href="requirements/index.html" class="fv-cta" aria-label="募集要項へ移動">
+      <span class="fv-cta__text">募集要項</span>
+    </a>
+
+    <section class="recruit" id="recruit">
+      <div class="recruit__inner l-container">
+        
+        <div class="recruit__lead-box">
+          <div class="recruit__lead-inner">
+            <h2 class="recruit__lead-title">
+              岩崎税理士事務所では<br>
+              一緒には働く仲間を<br>
+              募集しています
+            </h2>
+            <p class="recruit__lead-text">
+              少人数だからこそ、働き方も、<br>
+              関わり方も柔軟に。<br>
+              クラウドとリモートを活用した<br>
+              事務所です。
+            </p>
+          </div>
+        </div>
+
+        <div class="recruit__content-area">
+          <article class="recruit__card">
+            <h3 class="recruit__card-title">税理士補助</h3>
+            <p class="recruit__card-status">経験者採用 / 正社員</p>
+            <p class="recruit__card-desc">リモート / 出社のハイブリッド<br>週2回程度出社</p>
+            <p class="recruit__card-detail">複数の顧問先を担当し、クラウド会計を活用して月次・年次決算を支援します。打合せは原則オンラインです。</p>
+            <a href="requirements/index.html" class="recruit__card-link">詳細を見る →</a>
+          </article>
+
+          <article class="recruit__card">
+            <h3 class="recruit__card-title">税理士補助</h3>
+            <p class="recruit__card-status">未経験者採用 / 正社員</p>
+            <p class="recruit__card-desc">リモート / 出社のハイブリッド<br>習熟度に応じて回数を調整</p>
+            <p class="recruit__card-detail">約半年の研修で記帳から決算まで習得。その後は担当を持ち、月次・年次決算を支援します。</p>
+            <a href="requirements/index.html" class="recruit__card-link">詳細を見る →</a>
+          </article>
+
+          <article class="recruit__card">
+            <h3 class="recruit__card-title">税理士補助</h3>
+            <p class="recruit__card-status">パート採用</p>
+            <p class="recruit__card-desc">リモート / 出社のハイブリッド<br>習熟度に応じて回数を調整</p>
+            <p class="recruit__card-detail">主な業務は記帳、決算書・申告書作成、書類整理や発送など。フレックスタイム制で柔軟に働けます。</p>
+            <a href="requirements/index.html" class="recruit__card-link">詳細を見る →</a>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+  <section class="feature" id="feature">
+    <div class="feature__inner l-container">
+
+      <div class="feature__col feature__col--left">
+        <article class="feature-card feature-card--text feature-card--t1">
+          <h2 class="feature-card__title">どこにいても、<br>同じチーム</h2>
+          <p class="feature-card__text">
+            クラウド会計で情報共有を一元化。<br>在宅でも出社でも、距離を感じずに働けます
+          </p>
+        </article>
+
+        <article class="feature-card feature-card--text feature-card--t2">
+          <h2 class="feature-card__title">家庭があっても、<br>続けられる</h2>
+          <p class="feature-card__text">
+            急な予定変更にも柔軟に対応。<br>仕事と生活、どちらも無理をしません
+          </p>
+        </article>
+
+        <figure class="feature-card feature-card--photo feature-card--p1">
+          <img src="./img/featuring-women.jpg" alt="働く人物">
+        </figure>
+      </div>
+
+      <div class="feature__col feature__col--center">
+        <figure class="feature-card feature-card--photo feature-card--p2">
+          <img src="img/sumple.jpg" alt="電球の写真">
+        </figure>
+
+        <article class="feature-card feature-card--text feature-card--t3">
+          <h2 class="feature-card__title">立場より、<br>信頼でつながる</h2>
+          <p class="feature-card__text">
+            年齢やキャリアに関係なく、<br>成果と姿勢をフェアに評価します
+          </p>
+        </article>
+
+        <figure class="feature-card feature-card--photo feature-card--p3">
+          <img src="img/sumple.jpg" alt="時計とカレンダー">
+        </figure>
+      </div>
+
+      <div class="feature__col feature__col--right">
+        <article class="feature-card feature-card--text feature-card--t4">
+          <h2 class="feature-card__title">時間を決めるのは、<br>自分</h2>
+          <p class="feature-card__text">
+            業務に合わせて、生活に合わせて。<br>集中できるリズムを大切にしています
+          </p>
+        </article>
+
+        <figure class="feature-card feature-card--photo feature-card--p4">
+          <img src="./img/featuring-set.jpg" alt="打ち合わせ風景">
+        </figure>
+
+        <article class="feature-card feature-card--text feature-card--t5">
+          <h2 class="feature-card__title">数字の先に、<br>人がいる</h2>
+          <p class="feature-card__text">
+            税務にとどまらず、<br>経営に寄り添う仕事を大切にしています
+          </p>
+        </article>
+      </div>
+
+      <aside class="feature-panel">
+        <div class="feature-panel__inner">
+          <p class="feature-panel__heading">Featuring</p>
+          <h2 class="feature-panel__title">
+            場所も、<br>
+            時間も、<br>
+            役割も。<br>
+            <br>
+            選べるから、<br>
+            続けられる
+          </h2>
+          <p class="feature-panel__text">
+            クラウド会計を軸に、“自分らしく働く5つのシーン”
+          </p>
+          <span class="feature-panel__line"></span>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+  <section class="feature-sp" id="feature-sp" aria-labelledby="feature-sp-title">
+    <div class="feature-sp__viewport">
+      <div class="feature-sp__track">
+        
+        <aside class="feature-sp__panel">
+          <div class="feature-sp__panel-inner">
+            <p class="feature-sp__eyebrow" aria-hidden="true">
+              <span class="feature-sp__eyebrow-f">F</span><span class="feature-sp__eyebrow-rest">eaturing</span>
+            </p>
+
+            <h2 class="feature-sp__lead" id="feature-sp-title">
+              <span class="feature-sp__lead-top">
+                <span>場所も、</span>
+                <span>時間も、</span>
+                <span>役割も。</span>
+              </span>
+              <span class="feature-sp__lead-bottom">
+                選べるから、<br>
+                続けられる
+              </span>
+            </h2>
+
+            <p class="feature-sp__intro">
+              クラウド会計を軸に、<br>
+              “自分らしく働く5つのシーン”
+            </p>
+          </div>
+        </aside>
+
+        <article class="feature-sp__card">
+          
+          <div class="feature-sp__body">
+            <h3 class="feature-sp__title">
+              どこにいても、<br>
+              同じチーム
+            </h3>
+            <p class="feature-sp__text">
+              クラウド会計で情報共有を一元化。<br>
+              在宅でも出社でも、距離を感じずに働けます
+            </p>
+          </div>
+          <figure class="feature-sp__image">
+            <img src="./img/featuring-women.jpg" alt="働く人物">
+          </figure>
+        </article>
+
+        <article class="feature-sp__card">
+          
+          <div class="feature-sp__body">
+            <h3 class="feature-sp__title">
+              時間を決めるのは、自分
+            </h3>
+            <p class="feature-sp__text">
+              業務に合わせて、<br>
+              生活に合わせて。<br>
+              集中できるリズムを大切にしています
+            </p>
+          </div>
+          <figure class="feature-sp__image">
+            <img src="./img/sumple.jpg" alt="時計とカレンダー">
+          </figure>
+        </article>
+
+        <article class="feature-sp__card">
+          
+          <div class="feature-sp__body">
+            <h3 class="feature-sp__title">
+              家庭があっても、続けられる
+            </h3>
+            <p class="feature-sp__text">
+              急な予定変更にも柔軟に対応。<br>
+              仕事と生活、どちらも無理をしません
+            </p>
+          </div>
+          <figure class="feature-sp__image">
+            <img src="./img/featuring-set.jpg" alt="打ち合わせ風景">
+          </figure>
+        </article>
+
+        <article class="feature-sp__card">
+          
+          <div class="feature-sp__body">
+            <h3 class="feature-sp__title">
+              立場より、<br>
+              信頼でつながる
+            </h3>
+            <p class="feature-sp__text">
+              年齢やキャリアに関係なく、<br>
+              成果と姿勢をフェアに評価します
+            </p>
+          </div>
+          <figure class="feature-sp__image">
+            <img src="./img/sumple.jpg" alt="電球の写真">
+          </figure>
+        </article>
+
+        <article class="feature-sp__card">
+          
+          <div class="feature-sp__body">
+            <h3 class="feature-sp__title">
+              数字の先に、<br>人がいる
+            </h3>
+            <p class="feature-sp__text">
+              税務にとどまらず、<br>
+              経営に寄り添う仕事を大切にしています
+            </p>
+          </div>
+          <figure class="feature-sp__image">
+            <img src="./img/sumple.jpg" alt="書類を見る人物">
+          </figure>
+        </article>
+
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="message" id="message">
+    <div class="message__ornament" aria-hidden="true">
+     <img src="img/contour2.png" alt="">
+    </div>
+    <div class="message__inner l-container">
+    <div class="message__header">
+      <p class="message__eyebrow">Message</p>
+      <h2 class="message__title">
+        税理士の枠にとどまらない、<br>
+        経営のパートナー 
+      </h2>
+      <p class="message__sub">Our Vision for the Future</p>
+    </div>
+
+    <figure class="message__image">
+      <img src="./img/iwasaki.jpg" alt="メッセージセクションの人物写真">
+    </figure>
+
+    <div class="message__text">
+      <p class="message__name">代表税理士 岩崎 新</p>
+      <p>
+        数字を見るのが税理士の仕事」と思われがちですが、私たちは違います。数字の先にいる「人」の人生や、経営者の「孤独な決断」に寄り添うことこそが本質です。 AIで自動化が進む今だからこそ、人間にしかできない「共感」と「対話」を大切にしたい。そんな想いに共感し、共に悩み、共に喜べる仲間を探しています。 私たちの役割は、単なる税務申告ではありません。お客様の未来を一緒に創る「経営のパートナー」として、あなたの力を貸してください。共に成長できる日を楽しみにしています。
+      </p>
+    </div>
+    </div>
+  </section>
+
+  <section class="top-story" id="story">
+   <div class="story__ornament" aria-hidden="true">
+    <img src="img/contour3.png" alt="">
+   </div>
+   <div class="story__inner l-container">
+    <div class="story__heading">
+      <p class="story__eyebrow">Story</p>
+      <h2 class="story__title">それぞれの場所で、<br class="u-sp">同じ未来を見ている。</h2>
+      <p class="story__lead">
+        どこにいても、同じ目的でつながれるチーム。<br>
+        それぞれのリズムで働きながら、<br>
+        “数字の先”を支える想いはひとつです。
+      </p>
+    </div>
+
+    <div class="story__list">
+      <article class="story-card story-card--01">
+        <div class="story-card__intro">
+          <div class="story-card__head">
+            <span class="story-card__pin" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20" fill="none">
+                <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="#E39A3B"/>
+              </svg>
+            </span>
+            <p class="story-card__number">01</p>
+          </div>
+          <h3 class="story-card__catch">“つながる距離”が、ちょうどいい</h3>
+        </div>
+
+        <figure class="story-card__image">
+          <picture>
+          <source media="(max-width: 768px)" srcset="./img/nishimaki-story-sp.jpg">
+          <img src="./img/nishimaki-story.jpg" alt="西巻">
+        </picture>
+        </figure>
+
+        <div class="story-card__profile">
+          <p class="story-card__profile-inline">西巻 <span>|</span> 税務コンサルタント（正社員）</p>
+          <p class="story-card__name">西巻</p>
+          <p class="story-card__meta">税務コンサルタント（正社員）</p>
+        </div>
+      </article>
+
+      <article class="story-card story-card--02">
+        <div class="story-card__intro">
+          <div class="story-card__head">
+            <span class="story-card__pin" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20" fill="none">
+                <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="#E39A3B"/>
+              </svg>
+            </span>
+            <p class="story-card__number">02</p>
+          </div>
+          <h3 class="story-card__catch">
+            仕事も家庭も、自分らしく。<br>
+            彩り豊かな毎日がお客様への貢献へ
+          </h3>
+        </div>
+
+        <figure class="story-card__image" data-tone="bright">
+          <picture>
+            <source media="(max-width: 768px)" srcset="./img/nakamura-story-sp.jpg">
+            <img src="./img/nakamura-story-top.jpg" alt="中村">
+          </picture>
+        </figure>
+
+        <div class="story-card__profile">
+          <p class="story-card__profile-inline">中村 <span>|</span> 税理士補助（パート）</p>
+          <p class="story-card__name">中村</p>
+          <p class="story-card__meta">税理士補助（パート）</p>
+        </div>
+
+        <div class="story-card__tags">
+          <span class="story-card__tag">子育てと両立</span>
+          <span class="story-card__tag">フレックスタイム</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="story__footer">
+      <a href="story/index.html" class="story__link">Story を読む →</a>
+    </div>
+   </div>
+  </section>
+  </main>
+  <footer class="site-footer">
+   <div class="site-footer__inner l-container">
+
+    <div class="site-footer__left">
+      <div class="site-footer__social">
+        <a href="https://x.com/taxmania11" target="_blank" class="site-footer__social-link" aria-label="X">
+          <img src="img/icon-X.svg" alt="X">
+        </a>
+        <a href="https://www.instagram.com/iwasaki_tax_office/" target="_blank"class="site-footer__social-link" aria-label="Instagram">
+          <img src="img/icon-Instagram.svg" alt="Instagram" target="_blank">
+        </a>
+        <a href="https://www.facebook.com/people/%E5%B2%A9%EF%A8%91%E6%96%B0%E7%A8%8E%E7%90%86%E5%A3%AB%E4%BA%8B%E5%8B%99%E6%89%80/100089479747477/" target="_blank"class="site-footer__social-link" aria-label="Facebook">
+          <img src="img/icon-facebook.svg" alt="Facebook">
+        </a>
+      </div>
+
+      <div class="site-footer__bottom">
+        <nav class="site-footer__nav" aria-label="フッターナビゲーション">
+          <a href="https://iwasaki-taxoffice.jp/privacy/" class="site-footer__nav-link">プライバシーポリシー</a>
+          <a href="https://iwasaki-taxoffice.jp/office/" class="site-footer__nav-link">会社情報</a>
+        </nav>
+
+        <p class="site-footer__copy">
+          © 2025 Arata Tax Accountant Office.
+        </p>
+      </div>
+    </div>
+
+    <div class="site-footer__right">
+      <a href="index.html" class="site-header__logo-link">
+        <img src="./img/logo_header.png" alt="岩崎税理士事務所">
+      </a>
+    </div>
+
+   </div>
+  </footer>
+
+  
+
+  <script>
+    //ページ読み込みフェードイン
+    window.addEventListener('load', () => {
+      document.body.classList.add('is-loaded');
+    });
+    //ヘッダーの昇降
+    let lastScrollY = window.scrollY;
+    const header = document.querySelector('.site-header');
+
+    window.addEventListener('scroll', () => {
+    const currentScrollY = window.scrollY;
+
+    if (Math.abs(currentScrollY - lastScrollY) < 5) return;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+        header.classList.add('is-hidden');
+    } else {
+        header.classList.remove('is-hidden');
+    }
+
+    lastScrollY = currentScrollY;
+    });
+
+    //追従するCTAボタンのscript
+    const cta = document.querySelector('.fv-cta');
+    const footer = document.querySelector('.site-footer');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          cta.classList.add('is-hidden');
+        } else {
+          cta.classList.remove('is-hidden');
+        }
+      });
+    });
+
+    observer.observe(footer);
+
+  // -----------------------------------------------------------------
+  // フェードアップ
+  // -----------------------------------------------------------------
+  const cards = document.querySelectorAll('.story-card');
+
+  // 【修正箇所1】
+  // Observerの中では、自分自身を el として参照するように
+  // setTimeoutを整理します。
+  const storyObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+
+          if (el.classList.contains('story-card--01')) {
+            setTimeout(() => el.classList.add('is-show'), 0);
+          }
+
+          if (el.classList.contains('story-card--02')) {
+            setTimeout(() => el.classList.add('is-show'), 200);
+          }
+
+          // 【修正箇所2】
+          // 監視を解除する処理を、setTimeoutの外（＝この el が画面に入った時点）
+          // に、1回だけ記述します。
+          storyObserver.unobserve(el);
+        }
+      });
+    }, {
+      rootMargin: '0px 0px -150px 0px',
+      threshold: 0.2
+    });
+
+// 【修正箇所3】
+// ここで、正しいObserver名（storyObserver）を使って監視を開始します。
+cards.forEach(card => storyObserver.observe(card));
+    //ハンバーガー開閉のscript
+    document.addEventListener('DOMContentLoaded', function () {
+    const menuButton = document.querySelector('.sp-header__menu');
+    const navPanel = document.querySelector('.sp-nav-panel');
+    const overlay = document.querySelector('.sp-nav-overlay');
+    const navLinks = document.querySelectorAll('.sp-nav__item a');
+
+    if (!menuButton || !navPanel || !overlay) return;
+
+    const openNav = () => {
+      navPanel.classList.remove('is-closing');
+      overlay.classList.remove('is-closing');
+
+      navPanel.classList.add('is-open');
+      overlay.classList.add('is-open');
+      document.body.classList.add('is-nav-open');
+
+      menuButton.setAttribute('aria-expanded', 'true');
+      menuButton.setAttribute('aria-label', 'メニューを閉じる');
+      navPanel.setAttribute('aria-hidden', 'false');
+      overlay.setAttribute('aria-hidden', 'false');
+    };
+
+    const closeNav = () => {
+      navPanel.classList.add('is-closing');
+      overlay.classList.add('is-closing');
+
+      navPanel.classList.remove('is-open');
+      overlay.classList.remove('is-open');
+      document.body.classList.remove('is-nav-open');
+
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'メニューを開く');
+      navPanel.setAttribute('aria-hidden', 'true');
+      overlay.setAttribute('aria-hidden', 'true');
+
+      window.setTimeout(() => {
+        navPanel.classList.remove('is-closing');
+        overlay.classList.remove('is-closing');
+      }, 240);
+    };
+
+    const toggleNav = () => {
+      const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+      if (isOpen) {
+        closeNav();
+      } else {
+        openNav();
+      }
+    };
+
+    menuButton.addEventListener('click', toggleNav);
+    overlay.addEventListener('click', closeNav);
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', closeNav);
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+        closeNav();
+      }
+    });
+  });
+  </script>
+
+</body>
+</html>
+</body>
+</html>
