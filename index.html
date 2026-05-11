@@ -554,11 +554,11 @@
           const el = entry.target;
 
           if (el.classList.contains('story-card--01')) {
-            setTimeout(() => el.classList.add('is-show'), 0);
+            setTimeout(() => el.classList.add('is-show'), 120);
           }
 
           if (el.classList.contains('story-card--02')) {
-            setTimeout(() => el.classList.add('is-show'), 200);
+            setTimeout(() => el.classList.add('is-show'), 320);
           }
 
           // 【修正箇所2】
@@ -568,8 +568,8 @@
         }
       });
     }, {
-      rootMargin: '0px 0px -150px 0px',
-      threshold: 0.2
+      rootMargin: '0px 0px -60px 0px',
+      threshold: 0.05
     });
 
 // 【修正箇所3】
