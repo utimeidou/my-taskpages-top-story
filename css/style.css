@@ -2098,7 +2098,7 @@ button {
 @media (max-width: 768px) {
   .story {
     padding-top: 72px;
-    padding-bottom: 96px;
+    /* padding-bottom: 96px; */
   }
 
   .story__heading {
@@ -2257,7 +2257,7 @@ button {
   
   .story {
     padding-top: 72px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
   }
 
   .story__heading {
