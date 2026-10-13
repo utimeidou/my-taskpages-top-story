@@ -410,6 +410,7 @@
 
 .entry-form__label span {
   color: #888;
+  font-size: 13px;
 }
 
 .entry-form__radio-group {
@@ -724,6 +725,10 @@
   }
   .entry-form__body {
     padding-top: 56px;
+  }
+  .entry-form__email-note {
+    display: block;
+    margin-top: 4px;
   }
 
 }
