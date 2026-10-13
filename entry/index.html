@@ -132,7 +132,7 @@
           <!-- お問い合わせ項目 -->
           <div class="entry-form__group">
             <p class="entry-form__label">
-              お問い合わせ項目 <span>※</span>
+              お問い合わせ項目<span>※</span>
             </p>
 
             <div class="entry-form__radio-group">
@@ -151,7 +151,7 @@
           <!-- 希望職種 -->
           <div class="entry-form__group entry-form__group--large-gap">
             <p class="entry-form__label">
-              希望職種 <span>※</span>
+              希望職種<span>※</span>
             </p>
 
             <div class="entry-form__select-wrap">
@@ -167,7 +167,7 @@
           <!-- お名前 -->
           <div class="entry-form__group">
             <p class="entry-form__label">
-              お名前 <span>※</span>
+              お名前<span>※</span>
             </p>
 
             <div class="entry-form__name-row">
@@ -192,7 +192,7 @@
           <!-- フリガナ -->
           <div class="entry-form__group">
             <p class="entry-form__label">
-              フリガナ <span>※</span>
+              フリガナ<span>※</span>
             </p>
 
             <div class="entry-form__name-row">
@@ -217,7 +217,7 @@
           <!-- メールアドレス -->
           <div class="entry-form__group">
             <p class="entry-form__label">
-              メールアドレス <span>※</span>
+              メールアドレス<span class="entry-form__email-note">※メールアドレスは半角で入力してください</span>
             </p>
 
             <input
@@ -225,6 +225,7 @@
               name="email"
               class="entry-form__control"
               placeholder="example@example.com"
+              pattern="[\x20-\x7E]+"
               required
             >
           </div>
@@ -293,7 +294,7 @@
           <!-- 志望動機・PR -->
           <div class="entry-form__group entry-form__group--motivation">
             <p class="entry-form__label">
-              志望動機・PR <span>※</span>
+              志望動機・PR<span>※</span>
             </p>
 
             <textarea
