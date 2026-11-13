@@ -441,7 +441,7 @@ button {
 
   .sp-header__brand img {
     display: block;
-    width: clamp(104px, 18vw, 132px);
+    width: clamp(120px, 18vw, 132px);
     height: auto;
     aspect-ratio: 104 / 19;
     flex: 0 0 auto;
@@ -451,7 +451,7 @@ button {
     margin-top: clamp(1px, 0.3vw, 2px);
     color: #555;
     font-family: "Noto Sans JP", sans-serif;
-    font-size: clamp(10px, 1.5vw, 12px);
+    font-size: clamp(13px, 1.5vw, 12px);
     font-weight: 400;
     line-height: 1;
     white-space: nowrap;
